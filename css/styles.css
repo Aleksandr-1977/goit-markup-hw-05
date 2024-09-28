@@ -587,6 +587,7 @@ img {
 }
 .feedback-form-input-wrapper {
   position: relative;
+  margin-bottom: 16px;
 }
 .feedback-form-field-input {
   width: 100%;
