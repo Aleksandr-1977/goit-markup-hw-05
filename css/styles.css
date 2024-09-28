@@ -542,12 +542,17 @@ img {
   text-align: center;
   color: #fff;
   border-radius: 4px;
+  border: none;
   padding: 8px 24px;
   background-color: #4d5ae5;
-}
+  cursor: pointer;
+  transition: backgroud-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 .footer-subscribe-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
+.footer-subscribe-btn:hover, .footer-subscribe-btn:focus {background-color: #31d0aa;;}
 /*-----------Foooter---------------------------------------------*/
 /*--Backdrop--*/
 .backdrop {
