@@ -460,7 +460,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footer-container-soc{margin-right: 80px;}
+.footer-container-soc {
+  margin-right: 80px;
+}
 .text-soc {
   font-weight: 500;
   font-size: 16px;
@@ -526,7 +528,8 @@ img {
   color: #ffffff;
   outline: transparent;
 }
-.footer-subscribe-input::placeholder {color #ffffff;
+.footer-subscribe-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-subscribe-btn {
@@ -547,12 +550,15 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   transition: backgroud-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 .footer-subscribe-icon {
   fill: #ffffff;
   margin-left: 16px;
 }
-.footer-subscribe-btn:hover, .footer-subscribe-btn:focus {background-color: #31d0aa;;}
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
+}
 /*-----------Foooter---------------------------------------------*/
 /*--Backdrop--*/
 .backdrop {
